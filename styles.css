@@ -1,34 +1,76 @@
-body{
+body {
   margin: 0;
   position: relative;
   text-align: center;
+  background-color: black;
+  color: #969696;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
 }
-h1, h2 {
+
+hr{
+  color: #969696;
+}
+
+h1, h2, h4 {
   display: inline-block;
+  margin: 0;
 }
-.card-box{
+
+h1 {
+  color: #2D3248;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+h3 {
+  color: #6A6F81;
+}
+
+.card-box {
   width: 25%;
   position: relative;
   margin: 30px auto;
+  background-color: white;
+  border-radius: 15px;
 }
-#card-pattern{
+
+#card-pattern {
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
-#card-profile{
+
+#card-profile {
   border-radius: 50%;
   position: relative;
   bottom: 47px;
   border: solid white 3px;
   margin-bottom: -47px;
 }
-.media-info{
+
+.no-need {
+  visibility: hidden;
+}
+
+.media-info {
+  margin: 0;
+  padding: 20px;
   table-layout: fixed;
   width: 100%;
+  font-size: 12px;
 }
+
 .attribution {
-  font-size: 11px; text-align: center;
+  font-size: 11px;
+  bottom: 0%;
+  position: fixed;
+  display: block;
+  left: 39%;
+
 }
-.attribution a{
+
+.attribution a {
   color: #3E52A3;
 }
