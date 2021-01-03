@@ -7,7 +7,7 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
 }
 
-hr{
+hr {
   color: #969696;
 }
 
@@ -28,13 +28,22 @@ h3 {
   color: #6A6F81;
 }
 
-.container{
-  background-color: pink;
-  margin: 15% auto;
+.container {
+  margin: 8% auto;
   padding: 0;
   width: 350px;
   height: 400px;
   position: relative;
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    margin: 15% auto;
+    padding: 0;
+    width: 350px;
+    height: 400px;
+    position: relative;
+  }
 }
 
 .card-box {
@@ -69,14 +78,14 @@ h3 {
   font-size: 12px;
 }
 
-.top-pattern{
+.top-pattern {
   position: absolute;
   right: 50%;
   bottom: 30%;
   z-index: -1;
 }
 
-.bottom-pattern{
+.bottom-pattern {
   position: fixed;
   left: 55%;
   top: 40%;
