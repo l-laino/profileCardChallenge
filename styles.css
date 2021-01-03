@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+h1, h2 {
+  display: inline-block;
+}
+.card-box{
+  width: 25%;
+  position: relative;
+  margin: 30px auto;
+}
+#card-pattern{
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+#card-profile{
+  border-radius: 50%;
+  position: relative;
+  bottom: 47px;
+  border: solid white 3px;
+  margin-bottom: -47px;
+}
+.media-info{
+  table-layout: fixed;
+  width: 100%;
+}
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a{
+  color: #3E52A3;
+}
