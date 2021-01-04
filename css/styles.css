@@ -98,8 +98,9 @@ h3 {
   position: fixed;
   display: block;
   left: 39%;
+  color: #F0F8FF;
 }
 
 .attribution a {
-  color: #3E52A3;
+  color: #66ff99;
 }
